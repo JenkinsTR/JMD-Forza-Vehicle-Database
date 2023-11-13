@@ -1,8 +1,8 @@
 import os
 import re
 import shelve
+# import csv
 import json
-import csv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from mappings import parent_folders, folder_to_image, game_folder_codes, manufacturer_logos, manufacturer_codes, variant_mappings, car_overrides, variant_logos
