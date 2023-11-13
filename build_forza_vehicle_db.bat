@@ -1,5 +1,5 @@
 @echo off
-set SCRIPT_PATH="compare_carfolders.py"
+set SCRIPT_PATH="forza_vehicle_db.py"
 
 python %SCRIPT_PATH%
 if %ERRORLEVEL% NEQ 0 (

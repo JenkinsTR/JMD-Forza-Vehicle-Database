@@ -807,7 +807,7 @@ with open(json_filename, 'w') as json_file:
 print(f"Autocomplete JSON data saved to '{json_filename}'")
 
 # Write to HTML file
-output_file_path = 'car_subfolders.html'
+output_file_path = 'index.html'
 with open(output_file_path, 'w') as file:
     file.write(html_output)
 
